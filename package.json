@@ -1,0 +1,27 @@
+{
+  "name": "yeh-bhi-woh-bhi",
+  "version": "1.0.0",
+  "description": "Reverse proxy that reverse proxies to two hosts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quintype/yeh-bhi-woh-bhi.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Quintype Developers <dev-core@quintype.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quintype/yeh-bhi-woh-bhi/issues"
+  },
+  "homepage": "https://github.com/quintype/yeh-bhi-woh-bhi#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http-proxy": "^1.16.2",
+    "sleep-promise": "^2.0.0"
+  }
+}
